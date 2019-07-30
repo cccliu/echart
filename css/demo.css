@@ -1,0 +1,204 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    min-width: 1200px;
+}
+.wrap{
+    background: #ffffff;
+    padding: 10px;
+    margin: 0 auto;
+}
+.content{
+    width: 1140px;
+    border: 1px solid #e5e5e5;
+    margin: 0 auto;
+}
+.contentPadding{
+    padding:0 0px 32px 16px;
+}
+.content .header{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 13px;
+}
+.chartColumn{
+    width: 100%;
+}
+/*Í¼±íÑùÊ½*/
+.form{
+    width: 100%;
+    overflow: hidden;
+}
+.form .grossIncome{
+    float: left;
+    width: 23%;
+    border: 1px solid #e5e5e5;
+    margin-left: 22px;
+    width: 260px;
+    height:185px;
+    position: relative;
+}
+.grossIncome p{
+    height: 25px;
+    line-height: 25px;
+    border-bottom: 1px solid#e5e5e5;
+    padding-left: 10px;
+    color: #383838;
+    font-size: 14px;
+    margin: 0;
+    background: #efeff4;
+}
+.bottomBox{
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
+}
+.bottomBox span {
+    height: 18px;
+    display: inline-block;
+    margin-left: 12px;
+    color:#424242;
+}
+.bottomBox span b{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background: red;
+    vertical-align: sub;
+    border-radius: 2px;
+}
+.checkMore{
+    color: #1665ee;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 130px;
+}
+.formDataList{
+    width: 100%;
+    overflow: hidden;
+}
+.dataListBox{
+    width: 260px;
+    border: 1px solid #e5e5e5;
+    float: left;
+    margin-left: 22px;
+}
+.littleList{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    color: #505050;
+    background: #efeff4;
+    font-size: 14px;
+    padding-left: 10px;
+    border-bottom: 1px solid#e5e5e5;
+    margin-bottom: 0;
+}
+.dataList_ul{
+    width: 100%;
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+.dataList_ul li{
+    border-bottom: 1px solid #e5e5e5;
+    height: 48px;
+    color: #6b6b6b;
+}
+.dataList_ul b{
+    width: 23px;
+    height: 32px;
+    display: inline-block;
+    -webkit-background-size: 100%, 100%;
+    background-size: 100%, 100%;
+    margin-left: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+.address{
+    width: 57%;
+    display: inline-block;
+    padding-left: 10px;
+    word-wrap: break-word;
+    height: 32px;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    height: 32px;
+    line-height: 51px;
+    cursor: pointer;
+}
+.address a{
+    text-decoration:none;
+    color: #6b6b6b;
+}
+.moneyList{
+    display: inline-block;
+    word-wrap: break-word;
+    width: 61px;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    height: 30px;
+    line-height: 48px;
+    cursor: pointer;
+}
+.moneyList a{
+    text-decoration:none;
+    color: #6b6b6b;
+}
+/*-----------*/
+.prizeOne{
+  background: url('../img/pizeOne.png');
+}
+.prizeTwo{
+    background: url('../img/pizeTwo.png');
+}
+.prizeThree{
+    background: url('../img/pizeThree.png');
+}
+.statistics{
+    width: 100%;
+    margin-top: 46px;
+}
+.brokenLine{
+    width: 100%;
+    text-align: center;
+}
+.brokenLine span{
+    height: 18px;
+    display: inline-block;
+    margin-left: 12px;
+    color:#424242;
+}
+.brokenLine span b{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background: red;
+    vertical-align: sub;
+    border-radius: 2px;
+}
+#mainList{
+    width: 1200px;
+    height: 400px;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    position: relative;
+    background: transparent;
+    margin: 0 auto;
+}
+#siteStatistics{
+    width: 1200px;
+    height: 400px;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    position: relative;
+    background: transparent;
+    margin: 0 auto;
+}

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/demo.css"/>
+</head>
+<body>
+   <div class="wrap">
+         <div class="content">
+             <div class="contentPadding">
+                 <!-- 2017年数据统计-->
+                 <div class="header">2017年数据统计</div>
+                 <div class="chartColumn">
+                     <div class="form">
+                         <div class="grossIncome grossMain" style="margin-left:0px;">
+                             <p>总营收 <span class="checkMore" style="margin-left: 138px;">查看更多</span></p>
+                             <div id="main" style="width: 260px;height:130px;position:absolute;"></div>
+                             <div class="bottomBox">
+                                 <span><b style="background: #438eb9;"></b> &nbsp;营收</span>
+                                 <span style="margin-left: 10px"><b style="background: #f0b52d;"></b> &nbsp;成本</span>
+                             </div>
+                         </div>
+                         <div class="grossIncome grossNumber">
+                             <p>进厂车次<span class="checkMore">查看更多</span></p>
+                             <div id="incomingNumber" style="width: 260px;height:130px;position:absolute;"></div>
+                             <div class="bottomBox">
+                                 <span><b style="background: #438eb9;"></b> &nbsp;成功</span>
+                                 <span style="margin-left: 10px"><b style="background: #f0b52d;"></b> &nbsp;流失</span>
+                             </div>
+                         </div>
+                         <div class="grossIncome consumablesIncome">
+                             <p>配件耗材<span class="checkMore">查看更多</span></p>
+                             <div id="consumables" style="width: 260px;height:130px;position:absolute;"></div>
+                             <div class="bottomBox">
+                                 <span><b style="background: #438eb9;"></b> &nbsp;库存</span>
+                                 <span style="margin-left: 10px"><b style="background: #f0b52d;"></b> &nbsp;出库</span>
+                             </div>
+                         </div>
+                         <div class="grossIncome expenditGross">
+                             <p>其他收支<span class="checkMore">查看更多</span></p>
+                             <div id="expenditures" style="width: 260px;height:130px;position:absolute;"></div>
+                             <div class="bottomBox">
+                                 <span><b style="background: #438eb9;"></b> &nbsp;收入</span>
+                                 <span style="margin-left: 10px"><b style="background: #f0b52d;"></b> &nbsp;支出</span>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <!-- 2017年中心站TOP5榜单-->
+                 <div class="header">2017年中心站TOP5榜单</div>
+                 <div class="formDataList">
+                      <div class="dataListBox" style="margin-left: 0px;">
+                        <p class="littleList">工单利润</p>
+                          <ul class="dataList_ul">
+                              <li><b class="prizeOne"></b><span class="address"><a title="广州白云中心站">广州白云中心站</a></span><span class="moneyList">
+                                  <a title="5545454">121212元</a></span></li>
+                              <li><b class="prizeTwo"></b><span class="address">广州白云中心站</span><span class="moneyList">254555元</span></li>
+                              <li><b class="prizeThree"></b><span class="address">广州白云中心站</span><span class="moneyList">154555元</span></li>
+                              <li><b>4</b><span class="address">广州白云中心站</span><span class="moneyList">154555元</span></li>
+                              <li style="border-bottom:0px solid#e5e5e5;"><b>5</b><span class="address">广州白云中心站</span><span class="moneyList">154555元</span></li>
+                          </ul>
+                      </div>
+                      <div class="dataListBox">
+                         <p class="littleList">进厂车次</p>
+                         <ul class="dataList_ul">
+                             <li><b class="prizeOne"></b><span class="address">广州白云中心站</span><span class="moneyList">1545</span></li>
+                             <li><b class="prizeTwo"></b><span class="address">广州白云中心站</span><span class="moneyList">25455</span></li>
+                             <li><b class="prizeThree"></b><span class="address">广州白云中心站</span><span class="moneyList">1545</span></li>
+                             <li><b>4</b><span class="address">广州白云中心站</span><span class="moneyList">1545</span></li>
+                             <li style="border-bottom:0px solid#e5e5e5;"><b>5</b><span class="address">广州白云中心站</span><span class="moneyList">15400</span></li>
+                         </ul>
+                     </div>
+                      <div class="dataListBox">
+                         <p class="littleList">配件利润</p>
+                         <ul class="dataList_ul">
+                             <li><b class="prizeOne"></b><span class="address">广州白云中心站</span><span class="moneyList">154555元</span></li>
+                             <li><b class="prizeTwo"></b><span class="address">广州白云中心站</span><span class="moneyList">254555元</span></li>
+                             <li><b class="prizeThree"></b><span class="address">广州白云中心站</span><span class="moneyList">154555元</span></li>
+                             <li><b>4</b><span class="address">广州白云中心站</span><span class="moneyList">154555元</span></li>
+                             <li style="border-bottom:0px solid#e5e5e5;"><b>5</b><span class="address">广州白云中心站</span><span class="moneyList">154555元</span></li>
+                         </ul>
+                     </div>
+                      <div class="dataListBox">
+                         <p class="littleList">其他盈余</p>
+                         <ul class="dataList_ul">
+                             <li><b class="prizeOne"></b><span class="address">广州白云中心站</span><span class="moneyList">154555元</span></li>
+                             <li><b class="prizeTwo"></b><span class="address">广州白云中心站</span><span class="moneyList">254555元</span></li>
+                             <li><b class="prizeThree"></b><span class="address">广州白云中心站</span><span class="moneyList">154555元</span></li>
+                             <li><b>4</b><span class="address">广州白云中心站</span><span class="moneyList">154555元</span></li>
+                             <li style="border-bottom:0px solid#e5e5e5;"><b>5</b><span class="address">广州白云中心站</span><span class="moneyList">154555元</span></li>
+                         </ul>
+                     </div>
+                 </div>
+                 <!-- 2017年站点统计-->
+                 <div class="statistics">2017年站点统计</div>
+                 <div class="brokenLine">
+                     <span><b style="background: #438eb9;"></b> &nbsp;工单利润</span>
+                     <span><b style="background: #20b281;"></b> &nbsp;配件利润</span>
+                     <span style="margin-left: 10px"><b style="background: #f0b52d;"></b> &nbsp;其他盈余</span>
+                 </div>
+                 <div id="siteStatistics"></div>
+                 <div class="brokenLine" style="margin-top: 20px;">
+                     <span><b style="background: #176def;"></b> &nbsp;进厂车次</span>
+                 </div>
+                 <div id="mainList"></div>
+
+             </div>
+         </div>
+   </div>
+   <script src="js/echarts.min.js"></script>
+   <script type="text/javascript">
+ //四个饼状图表图表
+    var objectMain=document.getElementById('main');
+    var objectIncomingNumber=document.getElementById('incomingNumber');
+    var objectConsumables=document.getElementById('consumables');
+    var objectExpenditures=document.getElementById('expenditures');
+    Chart(10000,3000,'利润 (元)',objectMain);
+    Chart(1000,300,'进厂车次',objectIncomingNumber);
+    Chart(50000,40000,'利润 (元)',objectConsumables);
+    Chart(10000,3000,'盈余 (元)',objectExpenditures);
+    
+    function Chart(redVal,blueVal,titleVal,object){
+        var redValue=redVal;
+        var blueValue=blueVal;
+        var profitValue=redVal-blueVal;
+        var titleValue=titleVal;
+        if(titleVal=="进厂车次"){
+            var incomeValue=blueValue
+            var expenditureValue=redValue
+            var textSubValue=profitValue
+        }else{
+            var incomeValue=blueValue+'元 '
+            var expenditureValue=+redValue+'元 '
+            var textSubValue=profitValue+''
+        }
+        var myChart = echarts.init(object);//obj
+        option = {
+            title: {
+                text:textSubValue,
+                subtext:titleValue,
+                x: 'center',
+                y: '45px',
+                itemGap: 4,
+                textStyle : {
+                    color : '#000000',
+                    fontFamily : 'sans-serif',
+                    fontSize : 10,
+                },
+                subtextStyle:{
+                    color : '#6b6b6b',
+                    fontFamily : 'sans-serif',
+                    fontSize : 13,
+                }
+            },
+            series: [
+                {
+                    type:'pie',
+                    radius: ['50%', '70%'],
+                    data:[
+                        {value:blueValue, name:incomeValue},
+                        {value:redValue, name:expenditureValue},
+                    ]
+                }
+            ],
+            color:['#438eb9','#f0b52d']
+        };
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    }
+
+//折线图1有三个折线图（工单利润，配件利润，其他盈余）
+ var myChart1 = echarts.init(document.getElementById('siteStatistics'));
+ var symbolSize = 20;
+ option = {
+     tooltip : {
+         trigger: 'item',
+         show:false,
+     },
+     toolbox: {
+         show:false,
+     },
+     xAxis : [
+         {
+             type : 'category',
+             boundaryGap : false,
+             data : ['0','1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
+             splitLine:{show: true},//网格线
+             axisLine:{
+                 lineStyle:{
+                     type:'solid',
+                     color:'#e5e5e5',
+                     width:7,
+                 }
+             },
+             axisLabel:{
+                 textStyle:{
+                     color:'#000000'
+                 }
+             },
+             silent:true
+         }
+     ],
+     yAxis : [
+         {
+             type : 'value',
+             splitLine:{show: true},//网格线
+             interval:100,
+             axisLine:{
+                 lineStyle:{
+                     type:'solid',
+                     color:'#e5e5e5',
+                     width:6,
+                 }
+             },
+             axisLabel:{
+                 textStyle:{
+                     color:'#000000'
+                 },
+                 formatter : '{value}元'
+             },
+             silent:true
+         }
+     ],
+     series : [
+         {   name:'工单利润',
+             type:'line',
+             symbolSize:15,
+             symbol: "",
+             itemStyle : {
+                 normal: {
+                     color:'#ffffff',
+                     borderColor:'#438eb9',
+                     borderWidth:6,
+                     label : {show: true},
+                     lineStyle:{
+                         color:'#438eb9',
+                     },
+                     textStyle:{
+                         color:'#438eb9',
+                     }
+                 },
+             },
+             label:{
+                 normal: {
+                     textStyle:{
+                         color:'#000000'
+                     },
+                     show: true,
+                     formatter: "{c}元",
+                 }
+             },
+             data:[,120, 400, 101, 134, 90, 230,120, 400, 101, 134, 90, 230],
+             linkSymbol: 'arrow',
+         },
+         {
+             name:'配件利润',
+             type:'line',
+             symbolSize:15,
+             symbol: "",
+             itemStyle : {
+                 normal: {
+                     color:'#ffffff',
+                     borderColor:'#20b281',
+                     borderWidth:6,
+                     label : {show: true},
+                     lineStyle:{
+                         color:'#20b281',
+                     },
+                     textStyle:{
+                         color:'#20b281',
+                     }
+                 },
+             },
+             label:{
+                 normal: {
+                     textStyle:{
+                         color:'#000000'
+                     },
+                     show: true,
+                     formatter: "{c}元",
+                 }
+             },
+             data:[,20, 100, 80, 200, 100, 130, 220, 100, 150, 80, 300, 430],
+             linkSymbol: 'arrow',
+         },
+         {   name:'其他盈余',
+             type:'line',
+             symbolSize:15,
+             symbol: "",
+             itemStyle : {
+                 normal: {
+                     color:'#ffffff',
+                     borderColor:'#f0b52d',
+                     borderWidth:6,
+                     label : {show: true},
+                     lineStyle:{
+                         color:'#f0b52d',
+                     },
+                     textStyle:{
+                         color:'#f0b52d',
+                     }
+                 },
+             },
+             label:{
+                 normal: {
+                     textStyle:{
+                         color:'#000000'
+                     },
+                     show: true,
+                     formatter: "{c}元",
+                 }
+             },
+             data:[,200,400, 150, 250, 300, 100, 40, 200, 80, 180, 200,600],
+             linkSymbol: 'arrow',
+         }
+     ]
+ };
+ // 使用刚指定的配置项和数据显示图表。
+ myChart1.setOption(option);
+
+//折线图2（进厂车次）
+ var myChart2 = echarts.init(document.getElementById('mainList'));
+ var symbolSize = 20;
+ //      指定图表的配置项和数据
+ option = {
+     tooltip : {
+         trigger: 'item',
+         show:false,
+     },
+     toolbox: {
+         show:false,
+     },
+     xAxis : [
+         {
+             type : 'category',
+             boundaryGap : false,
+             data : ['0','1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
+             splitLine:{show: true},//网格线
+             linkSymbol: 'arrow',
+             axisLine:{
+                 lineStyle:{
+                     type:'solid',
+                     color:'#e5e5e5',
+                     width:7,
+                 }
+             },
+             axisLabel:{
+                 textStyle:{
+                     color:'#000000'
+                 }
+             },
+             silent:true
+         }
+     ],
+     yAxis : [
+         {
+             type : 'value',
+             splitLine:{show: true},//网格线
+             axisLabel : {
+                 formatter : '{value}'
+             },
+             splitNumber:5,
+             axisLine:{
+                 lineStyle:{
+                     type:'solid',
+                     color:'#e5e5e5',
+                     width:6,
+                 }
+             },
+             axisLabel:{
+                 textStyle:{
+                     color:'#000000'
+                 }
+             },
+             silent:true
+         }
+     ],
+     series : [
+         {
+             name:'进厂车次',
+             type:'line',
+             symbolSize:15,
+             symbol: "",
+             itemStyle : {
+                 normal: {
+                     color:'#ffffff',
+                     borderColor:'#176def',
+                     borderWidth:6,
+                     label : {show: true},
+                     lineStyle:{
+                         color:'#176def',
+                     },
+                     textStyle:{
+                         color:'#000000'
+                     }
+                 },
+             },
+             label:{
+                 normal: {
+                     textStyle:{
+                         color:'#000000'
+                     }
+                 }
+             },
+             data:[,120, 400, 101, 134, 90, 230,120, 400, 101, 134, 90, 230],
+         }
+     ]
+ };
+// // 使用刚指定的配置项和数据显示图表。
+ myChart2.setOption(option);
+</script>
+</body>
+</html>
